@@ -1,0 +1,56 @@
+<svg id="g10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46.896" height="43.839" viewBox="0 0 46.896 43.839">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-2 {
+        fill: #b4c3cc;
+      }
+
+      .cls-3 {
+        fill: #8899a6;
+      }
+
+      .cls-4 {
+        filter: url(#path26);
+      }
+
+      .cls-5 {
+        filter: url(#path22);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="path18" d="M0-47.5H46.9V-3.661H0Z" transform="translate(0 47.5)"/>
+    </clipPath>
+    <filter id="path22" x="-1.595" y="-2.539" width="53.789" height="41.073" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="path26" x="-7.766" y="8.998" width="62.428" height="41.073" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="g12">
+    <g id="g14" class="cls-1">
+      <g id="g20" transform="translate(7.405 3.461)">
+        <g class="cls-5" transform="matrix(1, 0, 0, 1, -7.4, -3.46)">
+          <path id="path22-2" data-name="path22" class="cls-2" d="M-.349-.578a9.172,9.172,0,0,0-2.487.344c.006-.115.019-.227.019-.344a7.177,7.177,0,0,0-7.4-6.922,7.337,7.337,0,0,0-7.139,5.107A7.825,7.825,0,0,0-20.1-2.885a7.175,7.175,0,0,0-7.4,6.922,7.177,7.177,0,0,0,7.4,6.922A7.337,7.337,0,0,0-12.956,5.85a7.826,7.826,0,0,0,2.734.494,8.02,8.02,0,0,0,1.353-.12A7.475,7.475,0,0,0-8.988,7.5,8.373,8.373,0,0,0-.349,15.573,8.373,8.373,0,0,0,8.289,7.5,8.372,8.372,0,0,0-.349-.578" transform="translate(34.9 10.96)"/>
+        </g>
+      </g>
+      <g id="g24" transform="translate(1.234 14.998)">
+        <g class="cls-4" transform="matrix(1, 0, 0, 1, -1.23, -15)">
+          <path id="path26-2" data-name="path26" class="cls-3" d="M-.492-.963a6.542,6.542,0,0,0-1.652.235,4.87,4.87,0,0,0,.418-1.966A5.382,5.382,0,0,0-7.28-7.885a5.754,5.754,0,0,0-3.333,1.063A7.934,7.934,0,0,0-18.387-12.5a8,8,0,0,0-7.566,5.026,10.491,10.491,0,0,0-2.924-.412c-5.452,0-9.873,4.132-9.873,9.229s4.421,9.229,9.873,9.229H-.492A5.979,5.979,0,0,0,5.678,4.8,5.979,5.979,0,0,0-.492-.963" transform="translate(39.98 27.5)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
