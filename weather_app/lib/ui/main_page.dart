@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:weather_app/ui/header_area.dart';
 
 class MainWeatherScreen extends StatefulWidget {
   @override
@@ -9,20 +10,21 @@ class _MainWeatherScreen extends State<MainWeatherScreen> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        backgroundColor: Colors.red,
-        // We want a huge container for the photo and weather data, and the hourly forecast. Column works here
-        body: Column(
-          children: [],
+      home: SafeArea(
+        child: Scaffold(
+          backgroundColor: Colors.red,
+          // We want a huge container for the photo and weather data, and the hourly forecast. Column works here
+          body: Column(
+            children: [
+              Menu(),
+            ],
+          ),
         ),
       ),
     );
   }
 }
 
-// TODO: Implement icons into assets
-// TODO: Implement fonts into assets
-// TODO: Implement images into assets
 // TODO: Create the current weather section
 // TODO: Create the hourly forecast section
 // TODO: Create the 7-day forecast section
