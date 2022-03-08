@@ -46,7 +46,6 @@ const Image kSnowImage = Image(
   image: AssetImage('assets/images/william-topa-_snowy.jpeg'),
 );
 
-
 ////
 // Single-line constants
 ////
@@ -59,3 +58,7 @@ const BoxShadow kBlackBoxShadow = BoxShadow(color: Color(0x29000000), offset: Of
 /// Icons
 
 /// Fonts
+
+/// API stuff
+const String kApiKey = "";
+const String kApiUrl = "https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude=minutely,alerts&appid=$kApiKey";
